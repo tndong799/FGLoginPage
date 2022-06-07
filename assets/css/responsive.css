@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+    .app{
+        padding: 26px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main{
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+        padding: 44px 27px 80px;
+    }
+
+    .welcome{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        max-width: 140px;
+    }
+    .title{
+        margin-top: 14px;
+        font-size: 4rem;
+        font-weight: 6rem;
+    }
+    .another-account{
+        margin-top: 36px;
+    }
+    .btn{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        min-width: 36px;
+    }
+    .btn.google{
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-right: 12px;
+    }
+    .btn.google > img{
+        margin-right: 12px;
+        width: 18px;
+        height: 18px;
+    }
+    .btn.facebook{
+        margin-right: 8px;
+    }
+    .form-group > label{
+        font-size: 1.4rem;
+        line-height: 2.1rem
+    }
+    .form-group > input{
+        margin-top: 16px;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .forgot-password{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+    .btn-submit{
+        padding: 15px 48px;
+    }
+}
