@@ -8,6 +8,7 @@ body{
     background: url('../images/the-interior-has-a-armchair-on-empty-white-wall-background-3d-rendering 1.jpg') no-repeat;
     background-size: cover;
     background-position: bottom;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
