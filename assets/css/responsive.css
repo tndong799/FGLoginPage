@@ -5,6 +5,8 @@
         justify-content: flex-start;
         height: 100%;
         background-position: left;
+        padding: 26px;
+        padding-bottom: 56px;
     }
     .main{
         width: 100%;
@@ -62,14 +64,20 @@
     }
 }
 
-/* @media screen and (max-height: 800px) {
-    .main{
-        padding: 40px 40px 52px;
+
+/* Fix for screen height <= 800px */
+@media screen and (max-height: 800px) {
+    .app{
+        height: 100%;
     }
-    .another-account{
+    .main{
+        /* padding: 40px 40px 52px; */
+       
+    }
+    /* .another-account{
         margin-top: 36px;
     }
     .form{
         margin-top: 40px;
-    }
-} */
+    } */
+}

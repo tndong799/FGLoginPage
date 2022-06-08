@@ -13,10 +13,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* padding: 30px; */
+    padding: 30px;
 }
 .logo{
-    margin: 30px 0 0 30px;
+    /* margin: 30px 0 0 30px; */
 }
 .main{
     width: 540px;
@@ -58,7 +58,7 @@ body{
 .title{
     font-weight: 500;
     font-size: 5.5rem;
-    line-height: 8.2rem;
+    line-height: 7.2rem;
     color: var(--black-color)
 }
 .another-account{
